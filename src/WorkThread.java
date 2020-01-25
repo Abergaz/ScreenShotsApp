@@ -12,7 +12,7 @@ public class WorkThread extends Thread {
             System.out.println(screenTime + " Отправлен снимок " + fileName);
             new UploadThread(inputStream,fileName).start();
             try {
-                sleep(5000+screenTime.getTime()- new Date().getTime());
+                sleep(5000+screenTime.getTime()-new Date().getTime());
             } catch (InterruptedException e) {
                 e.printStackTrace();
             }
