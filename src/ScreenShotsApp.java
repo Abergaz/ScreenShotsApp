@@ -11,7 +11,5 @@ public class ScreenShotsApp {
             WorkThread workThread = new WorkThread();
             workThread.start();
         }
-        //DropBoxSenderUtil.getInstance().upload(ScreenShotUtil.getInstance().getScreen(),"test.png");
-        //System.out.println(FileNameUtil.getInstance().getFileName());
     }
 }
